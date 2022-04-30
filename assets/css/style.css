@@ -54,16 +54,42 @@ p {
     font-size: 16px;
 }
 
+.image-full {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.image-border {
+    border: 5px solid #000;
+}
+
+.image-right {
+    float: right;
+    width: 49%;
+    max-height: 200px;
+    object-fit: none;
+    margin-bottom: 15px;
+}
+
+.image-left {
+    float: left;
+    width: 49%;
+    max-height: 200px;
+    object-fit: none;
+    margin-bottom: 15px;
+}
+
 /* main image for the website */
 
-/* .banner {
+.banner {
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/fabian-jones-N8XHVU0f52A-unsplash.jpg");
     background-size: cover;
     background-position: center;
-} */
+}
 
 .row {
     display: flex;
@@ -128,7 +154,7 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
